@@ -23,6 +23,6 @@ The <b><i>settings.json</i></b> file in VSCode is used to configure editor prefe
    - Some changes may require to restart VSCode for them to take effect.
 </div>
 
----
 
-**Tip:** Keep `settings.json` under version control to easily share and restore your preferred environment!
+## Tip
+ Keep `settings.json` under version control to easily share and restore your preferred environment!
