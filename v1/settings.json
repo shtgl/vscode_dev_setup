@@ -1,96 +1,48 @@
 {
-    // ================= Editor Settings =================
-    // Controls tab size for indentation
-    // Applies to all profiles
-    // Improves code readability and consistency
-    "workbench.settings.applyToAllProfiles": [
+  "workbench.settings.applyToAllProfiles": [
         "editor.tabSize"
     ],
-    // Enables word wrap in chat editor for better readability
     "chat.editor.wordWrap": "on",
-    // Organizes imports on save for cleaner code
     "editor.codeActionsOnSave": {
         "source.organizeImports": "explicit"
     },
-    // Disables hot exit to prevent unsaved files from being restored
     "files.hotExit": "off",
-    // Clears task quick open history for privacy
     "task.quickOpen.history": 0,
-    // Disables telemetry feedback for privacy
     "telemetry.feedback.enabled": false,
-    // Sets the editor font for better code visibility
     "editor.fontFamily": "Consolas",
-    // Sets tab size for indentation
     "editor.tabSize": 2,
-    // Adds a vertical ruler at 120 chars for line length guidance
     "editor.rulers": [120],
-    // Enables code folding for easier navigation
     "editor.folding": true,
-    // Sets cursor width for better visibility
     "editor.cursorWidth": 2,
-    // Sets line height for improved readability
     "editor.lineHeight": 1.4,
-    // Shows line numbers for easier code reference
     "editor.lineNumbers": "on",
-    // Shows glyph margin for debugging and code actions
     "editor.glyphMargin": true,
-    // Enables font ligatures for improved code appearance
     "editor.fontLigatures": true,
-    // Sets word wrap column for wrapping long lines
     "editor.wordWrapColumn": 120,
-    // Enables zooming with mouse wheel for accessibility
     "editor.mouseWheelZoom": true,
-    // Enables smooth scrolling for better navigation
     "editor.smoothScrolling": true,
-    // Sets cursor blinking style for visibility
     "editor.cursorBlinking": "smooth",
-    // Enables word wrap at specified column
     "editor.wordWrap": "wordWrapColumn",
-    // Disables inline suggestions for less distraction
     "editor.inlineSuggest.enabled": false,
-    // Customizes token colors (empty here)
     "editor.tokenColorCustomizations": {},
-    // Disables suggestions on trigger characters
     "editor.suggestOnTriggerCharacters": false,
-    // Customizes colorized bracket pairs (empty here)
     "editor.language.colorizedBracketPairs": [],
-    // Disables highlighting of invisible unicode characters
     "editor.unicodeHighlight.invisibleCharacters": false,
-    // Sets max sticky scroll lines for context
     "editor.stickyScroll.maxLineCount": 3,
-    // ================= Git & GitHub Settings =================
-    // Disables sync confirmation for faster workflow
     "git.confirmSync": false,
-    // Enables git decorations in the editor
     "git.decorations.enabled": true,
-    // Disables auto repository detection for performance
     "git.autoRepositoryDetection": false,
-    // Prevents opening parent folder repositories
     "git.openRepositoryInParentFolders": "never",
-    // Disables Copilot rename suggestions auto-trigger
     "github.copilot.renameSuggestions.triggerAutomatically": false,
-    // ================= Python Settings =================
-    // Disables auto environment creation
     "python.createEnvironment.trigger": "off",
-    // ================= Terminal Settings =================
-    // Sets terminal cursor style to block for visibility
     "terminal.integrated.cursorStyle": "block",
-    // Enables cursor blinking in terminal
     "terminal.integrated.cursorBlinking": true,
-    // Always confirm on terminal exit to prevent accidental closure
     "terminal.integrated.confirmOnExit": "always",
-    // Opens terminal in editor area by default
     "terminal.integrated.defaultLocation": "editor",
-    // Hides inactive cursor in terminal
     "terminal.integrated.cursorStyleInactive": "none",
-    // ================= Workbench & Window Settings =================
-    // Highlights modified tabs for unsaved changes
     "workbench.editor.highlightModifiedTabs": true,
-    // Disables window restore for a clean start
     "window.restoreWindows": "none",
-    // Customizes window title for better context
     "window.title": "${dirty}${folderName}${separator}${activeEditorShort} - VSCode",
-    // Customizes editor and UI colors for a personalized look
     "workbench.colorCustomizations": {
         "editor.background": "#292936",
         "editor.lineHighlightBackground": "#333342",
@@ -121,41 +73,25 @@
         "input.background": "#2f2f44",
         "dropdown.background": "#323247"
     },
-    // Disables per-window zoom for consistency
     "window.zoomPerWindow": false,
-    // Reduces UI motion for accessibility
     "workbench.reduceMotion": "on",
-    // Enables scrolling by page in lists for faster navigation
     "workbench.list.scrollByPage": true,
-    // Limits command palette history for privacy
     "workbench.commandPalette.history": 10,
-    // Moves activity bar to top for UI preference
     "workbench.activityBar.location": "top",
-    // Enables tab switching by scroll for convenience
     "workbench.editor.scrollToSwitchTabs": true,
-    // Sets max sticky scroll items for context
     "workbench.tree.stickyScrollMaxItemCount": 3,
-    // Sets min/max tab width for consistent tab sizing
     "workbench.editor.tabSizingFixedMinWidth": 80,
     "workbench.editor.tabSizingFixedMaxWidth": 120,
-    // Sets color theme for the editor
     "workbench.colorTheme": "GitHub Dark Default",
-    // Disables focusing recent editor after close
     "workbench.editor.focusRecentEditorAfterClose": false,
-    // Disables history-based language detection
     "workbench.editor.historyBasedLanguageDetection": false,
-    // ================= Search Settings =================
-    // Disables quick open history in search for privacy
     "search.quickOpen.includeHistory": false,
-    // Excludes common folders from search for performance
     "search.exclude": {
         "**/node_modules": true,
         "**/bower_components": true,
         "**/env": true,
         "**/venv": true
     },
-    // ================= File Watcher Settings =================
-    // Excludes common folders from file watching for performance
     "files.watcherExclude": {
         "**/.git/objects/**": true,
         "**/.git/subtree-cache/**": true,
